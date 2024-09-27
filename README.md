@@ -12,9 +12,7 @@
 
 The chatbot works by taking a user's natural language query, converting it into a SQL query using GPT-4, executing the query on a SQL database, and then presenting the results back to the user in natural language. This process involves several steps of data processing and interaction with the OpenAI API and a SQL database, all seamlessly integrated into a Streamlit application.
 
-Consider the following diagram to understand how the different chains and components are built:
 
-![Chatbot Architecture](./docs/mysql-chains.png)
 
 
 
